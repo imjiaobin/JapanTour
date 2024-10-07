@@ -76,4 +76,36 @@ main section.background-image h3 {
   z-index: 1;
   text-align: center;
   font-weight: lighter;
+}
+main section.info-circles {
+  background-color: white;
+  padding: 1rem;
+}
+main section.info-circles h3 {
+  text-align: center;
+  font-size: 2rem;
+}
+main section.info-circles div.circles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main section.info-circles div.circles div.circle {
+  padding: 1rem;
+  flex: 0 1 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main section.info-circles div.circles div.circle img {
+  width: 80%;
+  border-radius: 50%;
+  transition: all 0.1s ease-in-out;
+  padding: 0.3rem;
+}
+main section.info-circles div.circles div.circle img:hover {
+  border: 2px solid;
+}
+main section.info-circles div.circles div.circle p {
+  font-size: 1rem;
 }/*# sourceMappingURL=style.css.map */
